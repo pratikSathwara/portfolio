@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900');
+@font-face {
+  font-family: 'Brandon Grotesque Regular Italic';
+  src: url('./fontface_0107/brandon-grotesque-black-58a8a3e824392.eot'); /* IE9 Compat Modes */
+  src: url('./fontface_0107/brandon-grotesque-black-58a8a3e824392.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fontface_0107/brandon-grotesque-black-58a8a3e824392.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fontface_0107/brandon-grotesque-black-58a8a3e824392.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./fontface_0107brandon-grotesque-black-58a8a3e824392/.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('./fontface_0107/brandon-grotesque-black-58a8a3e824392.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Maven Pro', sans-serif;
+	line-height: 1.5;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+* {
+	box-sizing: inherit;
+	outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+	margin: 0;
+	padding: 0;
+}
+.container{
+  max-width: 1170px;
+  position: relative;
+  margin: 0 auto;
+  padding: 10px;
+}
+.top_main_bx{
+  margin-top: 40px;
+    margin-bottom: -17px;
+}
+.mainbox{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  
+}
+.box_margin{
+  position: relative;
+   margin-bottom: 85px;
+}
+.box{
+  position: relative;
+}
+.box1{
+    padding: 20px 20px 57px;
+    border: 1px solid #fff;
+    contain: content;
+}
+.box1:hover {
+    border-color: #d3d5df;
+    box-shadow: 0 4px 7px 0 rgba(218,220,230,.6);
+}
+.box1:hover .items_view{
+  visibility: visible!important;
+}
+.yoyo{
+  background: #fff;
+    display: block;
+    color: inherit;
+    margin: -20px -20px -57px;
+}
+.box1_1{
+  position: relative;
+}
+.box1_1_img{
+    background: #eef0f5;
+    width: 254px;
+    height: 160px;
+    position: relative;
+}
+.box1_1_img img{
+  width: 254px;
+  height: 160px;
+}
+.box1_1_img:after{
+  position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(40,44,63,.05);
+    content: "";
+    background-blend-mode: overlay;
+}
+.items_name{
+      margin-top: 14px;
+}
+.items_name_title{
+      font-size: 17px;
+    font-weight: 500;
+    word-break: break-word;
+}
+.items_name_subtext{
+  color: #686b78;
+    font-size: 13px;
+    margin-top: 4px;
+}
+.items_list{
+  display: flex;
+  align-items: center;
+      margin-top: 18px;
+    font-size: 12px;
+        justify-content: space-between;
+    color: #535665;
+}
+.star_bx{
+      background-color: #48c479;
+    color: #fff;
+    height: 20px;
+    width: 43px;
+    padding: 0 5px;
+    font-weight: 400;
+}
+.icon_star{
+  font-size: 10px;
+    margin-right: 4px;
+    position: relative;
+    top: -1px;
+}
+.icon_star:before{
+ font-family: "Font Awesome 5 Free";
+  content: '\f005';
+}
+.offer{
+      border-top: 1px solid #e9e9eb;
+    padding-top: 14px;
+    margin-top: 14px;
+    color: #8a584b;
+    display: flex;
+        align-items: center;
+    font-weight: 600;
+}
+.offer_icon{
+  font-size: 13px;
+    width: 20px;
+    height: 16px;
+    margin-right: 4px;
+        transform-origin: center center;
+}
+.offer_icon:before {
+  font-family: "Font Awesome 5 Free";
+    content: "\f295";
+}
+.offer_tx{
+    font-weight: 400;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.items_view{
+      color: #686b78;
+    font-size: 13px;
+    visibility: hidden;
+    border-top: 1px solid #e9e9eb;
+    padding-top: 14px;
+    margin-top: 14px;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 14px;
+}
+.quick_btn{
+      text-align: center;
+    float: none;
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    color: #5d8ed5;
+    font-weight: 600;
+        text-transform: uppercase;
+}
+@media only screen and (max-width: 600px) {
+  .mainbox{
+    flex-wrap: wrap;
+  }
+}
