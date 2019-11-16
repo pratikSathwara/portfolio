@@ -42,12 +42,9 @@
              });
 
          });         
-         AOS.init();
          AOS.init({
           duration: 1300,
           once: true,
           easing: 'linear',
         });
-         AOS.init({disable: 'mobile'});
-         
 
