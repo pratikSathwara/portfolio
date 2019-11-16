@@ -308,7 +308,7 @@ h2 {
 .ps_icon {
   width: 100px;
   position: absolute;
-  z-index: 0;
+  z-index: -1;
   left: 8%;
   top: 30%;
   transform: translate(-8%, -30%);
