@@ -65,7 +65,8 @@ h2 {
   min-height: 100vh;
   height: 100%;
   position: relative;
-  overflow: auto;
+   overflow: hidden;
+
 }
 
 .banner:after {
@@ -167,6 +168,7 @@ h2 {
   color: #fff;
   position: relative;
   z-index: 1;
+  overflow: hidden;
 }
 
 .header_text {
@@ -698,7 +700,7 @@ footer h2 {
 .footer_grid {
   position: relative;
   display: grid;
-  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-columns: 36.33% 30.33% 33.33%;
   height: auto;
   align-items: center;
   margin: 0 auto;

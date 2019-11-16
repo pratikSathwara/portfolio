@@ -42,13 +42,12 @@
              });
 
          });         
-
-
-        //  AOS.init();
-        //  AOS.init({
-        //   duration: 1500,
-        //   easing: 'linear',
-        // });
-        //  AOS.init({disable: 'mobile'});
+         AOS.init();
+         AOS.init({
+          duration: 1300,
+          once: true,
+          easing: 'linear',
+        });
+         AOS.init({disable: 'mobile'});
          
 
