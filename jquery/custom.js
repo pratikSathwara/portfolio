@@ -46,5 +46,6 @@
           duration: 1300,
           once: true,
           easing: 'linear',
+          disable: 'mobile',
         });
 
