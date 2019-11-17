@@ -938,6 +938,7 @@ footer h2 {
 }
 
 @media(max-width:488px) {
+  .resume a{font-size: 1em;}
   .keep_connected {
     top: 2%;
     left: 4%;
