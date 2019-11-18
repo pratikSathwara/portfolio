@@ -306,8 +306,8 @@ h2 {
   width: 100px;
   position: absolute;
   z-index: -1;
-  left: 8%;
-  top: 30%;
+  left: 5%;
+  top: 11%;
   transform: translate(-8%, -30%);
 }
 
@@ -782,6 +782,9 @@ footer h2 {
   .menuhover .closebtn {
     display: block;
   }
+  .menuhover .closebtn:focus{
+    outline: none;
+  }
   .menu .active {
     border-bottom: none;
   }
@@ -983,7 +986,10 @@ footer h2 {
     width: 100px;
   }
   .footer_content p {
-    font-size: 20px;
+    font-size: 18px;
     margin: 10px 0px 0px 0px;
+  }
+  .h_call_email span{
+    font-size: 15px;
   }
 }
