@@ -702,7 +702,7 @@ footer h2 {
 .footer_grid {
   position: relative;
   display: grid;
-  grid-template-columns: 36.33% 30.33% 33.33%;
+  grid-template-columns: 40% 25% 35%;
   height: auto;
   align-items: center;
   margin: 0 auto;
@@ -718,7 +718,7 @@ footer h2 {
 }
 
 .footer_content p {
-  font-size: 22px;
+  font-size: 19px;
 }
 
 .footer_content p a {
